@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #156963;
+    font-family: Helvetica;
+    font-size: 66.415px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.419px;
+    /* 100.005% */
+}
