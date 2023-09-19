@@ -9,7 +9,7 @@
 import {CatalogSlider, Homeslider, Tips} from '../components/component';
 
 export default {
-    components: { Homeslider, Tips, CatalogSlider }
+    components: { Homeslider, Tips, CatalogSlider}
 }
 </script>
 <style scoped>
