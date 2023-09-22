@@ -3,13 +3,14 @@
         <Homeslider />
         <Tips />
         <CatalogSlider />
+        <Categories />
     </div>
 </template>
 <script>
-import {CatalogSlider, Homeslider, Tips} from '../components/component';
+import {CatalogSlider, Categories, Homeslider, Tips} from '../components/component';
 
 export default {
-    components: { Homeslider, Tips, CatalogSlider}
+    components: { Homeslider, Tips, CatalogSlider, Categories }
 }
 </script>
 <style scoped>

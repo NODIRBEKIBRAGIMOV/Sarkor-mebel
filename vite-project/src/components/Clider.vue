@@ -1,5 +1,5 @@
 <template>
-    <div class="border w-full slide1">
+    <div class="w-full slide1">
         <swiper :slidesPerView="4" :spaceBetween="40" :freeMode="true" :pagination="{ clickable: true, }" :modules="modules"
             class="mySwiper w-full h-full">
             <swiper-slide>
@@ -219,7 +219,7 @@
             </swiper-slide>
         </swiper>
     </div>
-    <div class="border w-full slide2">
+    <div class="w-full slide2">
         <swiper :slidesPerView="3" :spaceBetween="30" :freeMode="true" :pagination="{ clickable: true, }" :modules="modules"
             class="mySwiper w-full h-full">
             <swiper-slide>
@@ -439,7 +439,7 @@
             </swiper-slide>
         </swiper>
     </div>
-    <div class="border w-full slide3">
+    <div class="w-full slide3">
         <swiper :slidesPerView="2" :spaceBetween="20" :freeMode="true" :pagination="{ clickable: true, }" :modules="modules"
             class="mySwiper w-full h-full">
             <swiper-slide>
@@ -574,7 +574,7 @@
             </swiper-slide>
         </swiper>
     </div>
-    <div class="border w-full slide4">
+    <div class="w-full slide4">
         <swiper :slidesPerView="1" :spaceBetween="20" :freeMode="true" :pagination="{ clickable: true, }" :modules="modules"
             class="mySwiper w-full h-full">
             <swiper-slide>
@@ -741,6 +741,12 @@ export default {
 </script>
 
 <style scoped>
+.mySwiper{
+    padding: 5px 0 ;
+}
+.slide2{
+    display: none;
+}
 .slide3 {
     display: none;
 }
@@ -893,7 +899,7 @@ export default {
     padding: 24px;
     background: #FFF;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
