@@ -5,13 +5,16 @@
         <CatalogSlider />
         <Categories />
         <AboutBlog />
+        <Works />
+        <Dation />
+        <Channel />
     </div>
 </template>
 <script>
-import {AboutBlog, CatalogSlider, Categories, Homeslider, Tips} from '../components/component';
+import {AboutBlog, CatalogSlider, Categories, Dation, Homeslider, Tips, Works, Channel} from '../components/component';
 
 export default {
-    components: { Homeslider, Tips, CatalogSlider, Categories, AboutBlog }
+    components: { Homeslider, Tips, CatalogSlider, Categories, AboutBlog, Works, Dation, Channel }
 }
 </script>
 <style scoped>
