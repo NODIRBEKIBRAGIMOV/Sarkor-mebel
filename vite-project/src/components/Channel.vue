@@ -115,7 +115,7 @@ export default {
 
 .text {
     width: 756px;
-    z-index: 10;
+    z-index: 11;
 }
 
 .text p {
