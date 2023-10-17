@@ -2,7 +2,7 @@
     <div class="relative w-full flex justify-center">
         <div class="channel relative w-full">
             <div class="text">
-                <h1>We have also lamination production channel</h1>
+                <h1>Wes have also lamination production channel</h1>
                 <p>Debitis ea dicta ea eum laboriosam quis dolore repudiandae. Est hic quod et similique ullam et. Ipsum
                     ipsam
                     temporibus quo ea natus enim quae officia nulla. Debitis ea dicta ea eum laboriosam quis dolore
